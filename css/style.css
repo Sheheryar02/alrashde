@@ -1,0 +1,2250 @@
+    /* Fonts */
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/format('woff2'), url('Poppins-BlackItalic.woff") format('woff');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-Black.woff2") format('woff2'), url("../fonts/Poppins-Black.woff") format('woff');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-Bold.woff2") format('woff2'), url("../fonts/Poppins-Bold.woff") format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-ExtraBold.woff2") format('woff2'), url("../fonts/Poppins-ExtraBold.woff") format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-SemiBoldItalic.woff2") format('woff2'), url("../fonts/Poppins-SemiBoldItalic.woff") format('woff');
+        font-weight: 600;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-SemiBold.woff2") format('woff2'), url("../fonts/Poppins-SemiBold.woff") format('woff');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-BoldItalic.woff2") format('woff2'), url("../fonts/Poppins-BoldItalic.woff") format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url('../fonts/Poppins-Regular.woff2') format('woff2'), url('../fonts/Poppins-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-ExtraLight.woff2") format('woff2'), url("../fonts/Poppins-ExtraLight.woff") format('woff');
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-MediumItalic.woff2") format('woff2'), url('Poppins-MediumItalic.woff') format('woff');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-Medium.woff2") format('woff2'), url('Poppins-Medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-ExtraBoldItalic.woff2") format('woff2'), url("../fonts/Poppins-ExtraBoldItalic.woff") format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-Italic.woff2") format('woff2'), url("../fonts/Poppins-Italic.woff") format('woff');
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-Light.woff2") format('woff2'), url("../fonts/Poppins-Light.woff") format('woff');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Poppins';
+        src: url("../fonts/Poppins-ExtraLightItalic.woff2") format('woff2'), url("../fonts/Poppins-ExtraLightItalic.woff") format('woff');
+        font-weight: 200;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/') format('woff2'), url('../fonts/Montserrat-BlackItalic.woff') format('woff');
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-ExtraBoldItalic.woff2') format('woff2'), url('../fonts/Montserrat-ExtraBoldItalic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-Italic.woff2') format('woff2'), url('../fonts/Montserrat-Italic.woff') format('woff');
+        font-weight: normal;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-ExtraLight.woff2') format('woff2'), url('../fonts/Montserrat-ExtraLight.woff') format('woff');
+        font-weight: 200;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-Black.woff2') format('woff2'), url('../fonts/Montserrat-Black.woff') format('woff');
+        font-weight: 900;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-BoldItalic.woff2') format('woff2'), url('../fonts/Montserrat-BoldItalic.woff') format('woff');
+        font-weight: bold;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-ExtraBold.woff2') format('woff2'), url('../fonts/Montserrat-ExtraBold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-Bold.woff2') format('woff2'), url('../fonts/Montserrat-Bold.woff') format('woff');
+        font-weight: bold;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-ExtraLightItalic.woff2') format('woff2'), url('../fonts/Montserrat-ExtraLightItalic.woff') format('woff');
+        font-weight: 200;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-Regular.woff2') format('woff2'), url('../fonts/Montserrat-Regular.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-Light.woff2') format('woff2'), url('../fonts/Montserrat-Light.woff') format('woff');
+        font-weight: 300;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-SemiBold.woff2') format('woff2'), url('../fonts/Montserrat-SemiBold.woff') format('woff');
+        font-weight: 600;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-Medium.woff2') format('woff2'), url('../fonts/Montserrat-Medium.woff') format('woff');
+        font-weight: 500;
+        font-style: normal;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-MediumItalic.woff2') format('woff2'), url('../fonts/Montserrat-MediumItalic.woff') format('woff');
+        font-weight: 500;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('../fonts/Montserrat-LightItalic.woff2') format('woff2'), url('../fonts/Montserrat-LightItalic.woff') format('woff');
+        font-weight: 300;
+        font-style: italic;
+        font-display: swap;
+    }
+    
+    @font-face {
+        font-family: 'Bungee';
+        src: url('../fonts/Bungee-Regular.woff') format('woff2'), url('../fonts/Bungee-Regular.woff2') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        font-display: swap;
+    }
+    /* Fonts end */
+    /*GLOBAL CSS */
+    
+    * {
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+    }
+    
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins';
+        overflow-x: hidden;
+    }
+    
+    h2 {
+        font-size: 44px;
+        line-height: 60px;
+    }
+    
+    a {
+        color: #fff;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Bungee';
+        text-transform: uppercase;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        margin: 0;
+    }
+    
+    a,
+    a:hover {
+        display: inline-block;
+        text-decoration: none;
+    }
+    
+    .container {
+        max-width: 1510px;
+        margin: 0 auto;
+    }
+    
+    .container-fluid {
+        max-width: 1920px;
+        margin: 0 auto;
+    }
+    
+    ul,
+    ol {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .design-top {
+        font-size: 16px;
+        color: #fff;
+        background-color: black;
+        text-align: center;
+        padding: 15px;
+    }
+    
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 5;
+        margin-top: 40px;
+        width: 100%;
+    }
+    
+    header .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    header .container .logo {
+        font-size: 0;
+        max-width: 125px;
+    }
+    
+    header .container .logo a img {
+        width: 100%;
+        height: 106px;
+        object-fit: cover;
+    }
+    
+    header .container .lists {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: 0.5s all ease-in-out;
+    }
+    
+    header .container .icon {
+        display: none;
+    }
+    
+    header .container .lists nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 966px;
+    }
+    
+    header .container .lists nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    header .container .lists nav ul.nav-links a {
+        font-size: 20px;
+        color: #000;
+        line-height: 26px;
+        font-weight: 500;
+        margin-right: 48px;
+        transition: 0.4s all ease-in-out;
+    }
+    
+    header .container .lists nav ul.nav-links a:hover {
+        color: #F84225;
+        transform: scale(1.1);
+    }
+    
+    header .container .lists nav ul.buttons a {
+        font-size: 20px;
+        color: #F84225;
+        line-height: 26px;
+        font-weight: 400;
+        margin-right: 26px;
+    }
+    
+    .quote {
+        font-size: 20px;
+        color: #fff !important;
+        line-height: 26px;
+        font-weight: 400;
+        margin-right: 48px;
+        padding: 12.5px 30.5px;
+        border-radius: 30px;
+        font-family: 'Bungee';
+        background-color: #F84225;
+        border: 1px solid #F84225;
+        overflow: hidden;
+        margin-right: 0;
+        position: relative;
+        z-index: 9999;
+        transition: 0.4s all ease-in-out;
+    }
+    
+    .quote::before {
+        content: "";
+        position: absolute;
+        width: 0%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: #fff;
+        z-index: -1;
+        transition: 0.4s all ease-in-out;
+    }
+    
+    .quote:hover::before {
+        width: 100%;
+    }
+    
+    .quote:hover {
+        color: #F84225 !important;
+    }
+    /* header ends */
+    /* nav banner */
+    
+    .nav-banner {
+        padding: 230px 0 180px;
+        background: url("../images/navbanner1.png") no-repeat center;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .nav-banner .container .nav-banner-text {
+        padding-left: 277px;
+        color: #fff;
+    }
+    
+    .nav-banner .container .nav-banner-text h2 {
+        font-size: 55px;
+        line-height: 80px;
+        position: relative;
+    }
+    
+    .nav-banner .container .nav-banner-text h2::before {
+        position: absolute;
+        content: '';
+        background: #F84225;
+        top: -10px;
+        left: -42px;
+        width: 17px;
+        height: 130%;
+    }
+    
+    .nav-banner .container .nav-banner-text p {
+        max-width: 834px;
+        font-size: 18px;
+        line-height: 36px;
+        font-weight: 500;
+        padding-top: 17px;
+    }
+    /* nav banner ends */
+    /* banner starts */
+    
+    .banner {
+        position: relative;
+    }
+    
+    .banner .banner-inner {
+        position: relative;
+        padding: 282px 0 274px;
+        z-index: 10;
+    }
+    
+    .banner .banner-inner .banner-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 0;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .banner .banner-inner .banner-bg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .banner .banner-inner .container {
+        position: relative;
+        z-index: 2;
+        text-align: right;
+        max-width: 1012px;
+        margin-left: auto;
+    }
+    
+    .banner .banner-inner .container h1::after {
+        position: absolute;
+        content: '';
+        width: 17px;
+        height: 180%;
+        top: -107px;
+        right: -47px;
+        background-color: #F84225;
+    }
+    
+    .banner .banner-inner .container span {
+        font-size: 53px;
+        color: #fff;
+        line-height: 59px;
+        font-family: 'Montserrat';
+        font-weight: 900;
+        padding-bottom: 40px;
+        display: block;
+    }
+    
+    .banner .banner-inner .container h1 {
+        font-size: 55px;
+        color: #fff;
+        line-height: 65px;
+        position: relative;
+        min-height: 130px;
+    }
+    
+    .banner .banner-inner .container p {
+        font-size: 20px;
+        color: #fff;
+        line-height: 26px;
+        padding-top: 26px;
+        max-width: 901px;
+        margin-left: auto;
+        min-height: 124px;
+    }
+    
+    .banner .banner-inner .container a {
+        padding-top: 10px;
+    }
+    
+    .owl-carousel .owl-item img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+    
+    .owl-theme .owl-nav {
+        position: absolute;
+        padding-left: 205px;
+        bottom: 114px;
+        left: 0;
+        text-align: left;
+    }
+    
+    .owl-carousel .owl-nav button.owl-next span,
+    .owl-carousel .owl-nav button.owl-prev span {
+        display: none;
+    }
+    
+    .owl-carousel .owl-nav button.owl-next {
+        background-image: url("../images/right.png");
+        width: 34px;
+        height: 34px;
+        filter: opacity(0.5);
+    }
+    
+    .owl-carousel .owl-nav button.owl-next:hover {
+        background-image: url("../images/right.png");
+        background-color: transparent;
+        filter: opacity(1);
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev {
+        background-image: url("../images/left.png");
+        width: 34px;
+        height: 34px;
+        filter: opacity(0.5);
+    }
+    
+    .owl-theme .owl-dots {
+        text-align: center;
+        -webkit-tap-highlight-color: transparent;
+        display: none;
+    }
+    
+    .owl-carousel .owl-nav button.owl-prev:hover {
+        background-image: url("../images/left.png");
+        background-color: transparent;
+        filter: opacity(1);
+    }
+    /*  */
+    
+    .slide-progress {
+        height: 7px;
+        background-color: #fff;
+        top: -168px;
+        position: relative;
+        z-index: 10;
+    }
+    
+    .container.pb {
+        margin-top: -8px;
+    }
+    
+    .container.pb::after {
+        content: '';
+        position: relative;
+        top: -172px;
+        left: 0;
+        height: 1px;
+        width: 100%;
+        background-color: #fff;
+        z-index: 10000;
+        display: block;
+    }
+    /*  */
+    /* banner ends */
+    /* contact */
+    
+    .contact-us {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+    }
+    
+    .contact-us a {
+        background-color: #F84225;
+        color: #fff;
+        font-size: 16px;
+        line-height: 22px;
+        font-family: 'Bungee';
+        position: relative;
+        z-index: 10;
+        width: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+        transition: 0.4s;
+    }
+    
+    .contact-us a:hover {
+        text-decoration: underline;
+        background-color: #2C376A;
+    }
+    
+    .contact-us img {
+        padding-right: 7px;
+    }
+    /* contact ends */
+    /* btf1 */
+    /* btf1 about */
+    
+    .btf1 {
+        padding: 114px 0 0;
+    }
+    
+    .btf1 .aboutus .container {
+        display: flex;
+        padding-bottom: 31px;
+    }
+    
+    .btf1 .aboutus .container .left {
+        position: relative;
+        padding-left: 39px;
+        max-width: 600px;
+        margin-right: auto;
+    }
+    
+    .btf1 .aboutus .container .left::after {
+        position: absolute;
+        content: '';
+        width: 17px;
+        height: 284px;
+        top: 7px;
+        left: 0px;
+        background-color: #F84225;
+    }
+    
+    .btf1 .aboutus .container span {
+        display: block;
+        color: #F84225;
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .btf1 .aboutus .container h2 {
+        line-height: 79px;
+    }
+    
+    .btf1 .aboutus .container .right {
+        font-size: 0;
+    }
+    /* btf1 about ends */
+    /* btf1 contractors */
+    
+    .btf1 .contractors .container {
+        display: flex;
+        padding: 46px 39px 47px 27px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 15px;
+        background-color: white;
+        justify-content: space-between;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .btf1 .contractors .container .contracter-image {
+        font-size: 0;
+        width: 35%;
+        flex: 0 0 34%;
+        border-radius: 20px;
+        overflow: hidden;
+    }
+    
+    .btf1 .contractors .container .contracter-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .btf1 .contractors .container .contracter-text {
+        width: 73%;
+        flex: 0 0 62%;
+    }
+    
+    .btf1 .contractors .container .contracter-text p {
+        font-size: 18px;
+        line-height: 31px;
+        color: #828282;
+        padding-bottom: 30px;
+        font-weight: 400;
+    }
+    /* btf1 contractors end */
+    /* btf1 ends */
+    /* btf2  */
+    
+    .btf2 {
+        position: relative;
+        padding-top: 122px;
+    }
+    
+    .btf2::before {
+        position: absolute;
+        content: '';
+        background-image: url("../images/Mask\ Group\ 2.png");
+        width: 630px;
+        height: 1294px;
+        top: -23.5%;
+        left: 0px;
+    }
+    
+    .btf2::after {
+        position: absolute;
+        content: '';
+        background-image: url("../images/Mask\ Group\ 1.png");
+        width: 249px;
+        height: 519px;
+        top: -18.5%;
+        right: 0px;
+    }
+    
+    .btf2 .container .services-blog {
+        position: relative;
+        padding: 10px 0 90px 53px;
+    }
+    
+    .btf2 .container .services-blog::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        background-color: #F84225;
+        height: 81px;
+        width: 17px;
+    }
+    
+    .btf2 .container .services-blog h2 {
+        padding-bottom: 20px;
+    }
+    
+    .btf2 .container .services-blog p {
+        font-size: 18px;
+        line-height: 32px;
+        font-weight: 400;
+        padding-bottom: 5px;
+        color: #828282;
+        max-width: 652px;
+    }
+    
+    .btf2 .container .services-boxes {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        padding-bottom: 152px;
+    }
+    
+    .btf2 .container .services-boxes .box {
+        font-size: 0;
+        position: relative;
+        filter: grayscale(1);
+        transition: 0.5s all ease-in-out;
+    }
+    
+    .btf2 .container .services-boxes .box:hover {
+        filter: none;
+    }
+    
+    .btf2 .container .services-boxes .box .box-overlay {
+        position: absolute;
+        display: flex;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition: 0.5s all ease-in-out;
+        opacity: 0;
+    }
+    
+    .btf2 .container .services-boxes .box .box-overlay:hover {
+        opacity: 1;
+    }
+    
+    .btf2 .container .services-boxes .box .box-overlay h3 {
+        font-size: 24px;
+        position: absolute;
+        line-height: 30px;
+        color: #fff;
+        width: 100%;
+        z-index: 10;
+        top: 88%;
+        left: -4px;
+        text-align: center;
+        transition: 0.5s all ease-in-out;
+    }
+    /* btf2 ends */
+    /* btf3 */
+    
+    .btf3 .container-fluid {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .btf3 .container-fluid .btf3-image {
+        width: 50%;
+        font-size: 0;
+        flex: 0 0 49%;
+    }
+    
+    .btf3 .btf3-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .btf3 .container-fluid .btf3-text {
+        width: 50%;
+        padding-left: 73px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 0 0 47%;
+    }
+    
+    .btf3 .container-fluid .btf3-text h2 {
+        max-width: 652px;
+        padding-bottom: 10px;
+        position: relative;
+    }
+    
+    .btf3 .container-fluid .btf3-text h2::before {
+        position: absolute;
+        content: '';
+        top: 0px;
+        left: -35px;
+        background-color: #F84225;
+        width: 17px;
+        height: 100%;
+    }
+    
+    .btf3 .container-fluid .btf3-text ul {
+        padding-left: 17px;
+        margin-top: 21px;
+    }
+    
+    .btf3 .container-fluid .btf3-text ul li {
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 661px;
+        color: #828282;
+        position: relative;
+    }
+    
+    .btf3 .container-fluid .btf3-text ul li::before {
+        content: "";
+        position: absolute;
+        background-color: red;
+        top: 11px;
+        left: -15px;
+        border-radius: 50%;
+        width: 9px;
+        height: 9px;
+    }
+    /* btf3 ends */
+    /* btf4  */
+    
+    .btf4 {
+        padding: 129px 0 55px;
+    }
+    
+    .btf4 h2 {
+        line-height: 67px;
+        padding-left: 50px;
+        position: relative;
+    }
+    
+    .btf4 .container h2::before {
+        position: absolute;
+        content: '';
+        top: -5px;
+        left: 0;
+        background-color: #F84225;
+        width: 17px;
+        height: 90px;
+    }
+    
+    .btf4 .card-boxes {
+        padding-top: 73.5px;
+        max-width: 1920px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 42px;
+    }
+    
+    .btf4 .card-boxes .card {
+        position: relative;
+        font-size: 0;
+        cursor: pointer;
+        width: 25%;
+        flex: 0 0 24.5%;
+        margin: 0 12px 12px 0;
+    }
+    
+    .btf4 .card-boxes .card:nth-child(4) {
+        margin-right: 0;
+    }
+    
+    .btf4 .card-boxes .card img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    
+    .btf4 .card-boxes .card .card-overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        background-color: rgb(248, 66, 37, 0.6);
+        border-radius: 8px;
+        padding: 26px 0 46px 37px;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.5s;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .btf4 .card-boxes .showed .card-overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .btf4 .card-boxes .card:hover .card-overlay {
+        opacity: 1;
+        visibility: visible;
+    }
+    
+    .btf4 .card-boxes .card .card-overlay h4 {
+        font-size: 18px;
+        line-height: 45px;
+        color: #fff;
+        padding-bottom: 4px;
+    }
+    
+    .btf4 .card-boxes .card .card-overlay span {
+        font-size: 17px;
+        line-height: 26px;
+        color: #fff;
+        display: block;
+        margin-bottom: auto;
+    }
+    
+    .btf4 .card-boxes .card .card-overlay a {
+        font-size: 16px;
+        line-height: 41px;
+        color: #fff;
+        font-family: 'Bungee';
+        position: relative;
+    }
+    
+    .btf4 .card-boxes .showed .card-overlay h4 {
+        font-size: 38px;
+        line-height: 52px;
+    }
+    
+    .btf4 .card-boxes .card .card-overlay a::after {
+        position: absolute;
+        content: '';
+        bottom: 0;
+        left: 0;
+        height: 3.3px;
+        width: 78.5px;
+        background-color: #fff;
+    }
+    /* btf4 ends */
+    /* btf5 */
+    
+    .btf5 {
+        padding: 133px 0 132px;
+        background: url("../images/banner\ bottom.png") no-repeat center;
+        background-size: cover;
+    }
+    
+    .btf5 .container .team-quote {
+        max-width: 1140px;
+        margin: 0 auto;
+        padding: 101px 0px 100px;
+        background-color: rgba(249, 249, 249, 67%);
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .btf5 .container .team-quote h2 {
+        line-height: 67px;
+        position: relative;
+    }
+    
+    .btf5 .container .team-quote h2::before {
+        position: absolute;
+        content: '"';
+        top: -31px;
+        left: 0;
+        width: 56px;
+        height: 56px;
+        color: #F84225;
+    }
+    
+    .btf5 .container .team-quote h2::after {
+        position: absolute;
+        content: '"';
+        bottom: -31px;
+        right: -67px;
+        width: 56px;
+        height: 56px;
+        color: #F84225;
+    }
+    /* btf5 ends */
+    /* about detail ***************************************/
+    
+    .about-detail .container {
+        max-width: 1140px;
+        padding: 76px 0 180px 38px;
+    }
+    
+    .about-detail .container h2 {
+        line-height: 112px;
+        position: relative;
+    }
+    
+    .about-detail .container h2::before {
+        position: absolute;
+        content: '';
+        top: 17px;
+        left: -38px;
+        width: 17px;
+        height: 93%;
+        background: #F84225;
+    }
+    
+    .about-detail .container p {
+        padding-bottom: 22px;
+        color: #828282;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    
+    .about-detail .container .missions {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-bottom: 45px;
+    }
+    
+    .about-detail .container .missions p {
+        font-weight: 400;
+    }
+    
+    .about-detail .container .missions .our-mission {
+        width: 48%;
+        flex: 0 0 50%;
+        padding-right: 42px;
+    }
+    
+    .about-detail .container ul {
+        max-width: 469px;
+        margin-left: 21px;
+    }
+    
+    .about-detail .container ul li p {
+        padding-bottom: 5px;
+        position: relative;
+    }
+    
+    .about-detail .container ul li p::before {
+        content: "";
+        position: absolute;
+        background-color: red;
+        top: 11px;
+        left: -21px;
+        border-radius: 50%;
+        width: 9px;
+        height: 9px;
+    }
+    
+    .about-detail .container .missions .our-vision {
+        width: 48%;
+        flex: 0 0 50%;
+        padding-left: 61px;
+    }
+    
+    .about-detail .container .core-values {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    
+    .about-detail .container .core-values .core-points {
+        width: 48%;
+        flex: 0 0 50%;
+        padding-right: 22px;
+    }
+    
+    .about-detail .container .core-values .core-points ul {
+        max-width: 100%;
+    }
+    
+    .about-detail .container .core-values .core-img {
+        width: 48%;
+        flex: 0 0 50%;
+        padding-left: 41px;
+        font-size: 0;
+    }
+    
+    .about-detail .container .core-values .core-img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    /* about detail ends *********************************/
+    /* services *************************************/
+    
+    .services-btf-2 .btf2::before {
+        top: 20.5%;
+    }
+    
+    .services-btf-2 .btf2::after {
+        top: 26.5%;
+    }
+    /* services ends ************************************/
+    /* services-1 *************************************/
+    
+    .services-1 .nav-banner {
+        padding: 217px 0 149px;
+        background-image: url('../images/Group\ 28.png');
+    }
+    
+    .services-1 .nav-banner .container .nav-banner-text h2 {
+        max-width: 462px;
+    }
+    /* services-1 ends ************************************/
+    /* services-2 *************************************/
+    
+    .services-2 .nav-banner .container .nav-banner-text h2 {
+        max-width: 672px;
+    }
+    
+    .services-2 .nav-banner {
+        padding: 217px 0 149px;
+        background-image: url('../images/Group\ 26.png');
+    }
+    /* services-2 ends ************************************/
+    /* services-3 *************************************/
+    
+    .services-3 .nav-banner .container .nav-banner-text h2 {
+        max-width: 733px;
+    }
+    
+    .services-3 .nav-banner {
+        padding: 217px 0 149px;
+        background-image: url('../images/Group\ 27.png');
+    }
+    /* services-3 ends ************************************/
+    /* services-4 *************************************/
+    
+    .services-4 .nav-banner {
+        padding: 282px 0 164px;
+        background-image: url('../images/transport.png');
+    }
+    /* services-4 ends ************************************/
+    /* services-5 *************************************/
+    
+    .services-5 .nav-banner {
+        padding: 282px 0 164px;
+        background-image: url('../images/construct.png');
+    }
+    /* services-5 ends ************************************/
+    /* services-5 *************************************/
+    
+    .services-6 .nav-banner {
+        padding: 282px 0 164px;
+        background-image: url('../images/constructing.png');
+    }
+    /* services-5 ends ************************************/
+    /* contact starts   ********************/
+    
+    .contact-banner .nav-banner {
+        min-height: 651px;
+        background-image: url('../images/contact.png');
+    }
+    
+    .contact-banner .nav-banner-text h2 {
+        color: #000;
+    }
+    
+    .submit-form .content {
+        display: flex;
+        max-width: 1140px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+    
+    .submit-form .col-left {
+        padding: 116px 0 40px;
+        max-width: 580px;
+        width: 100%;
+    }
+    
+    .submit-form .col-left h2 {
+        margin-bottom: 54px;
+    }
+    
+    .form-textarea {
+        padding: 0.625em;
+        min-height: 125px !important;
+        width: 100%;
+    }
+    
+    .branding21.formFooter {
+        display: none !important;
+    }
+    
+    .col-left a {
+        margin-top: 40px;
+    }
+    
+    .col-left .btn label {
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        line-height: 15px;
+        font-style: italic;
+        font-weight: 400;
+    }
+    
+    .col-left .btn input {
+        margin: 0 9px 0 12px;
+    }
+    
+    .submit-form .col-right {
+        max-width: 480px;
+    }
+    
+    .submit-form .col-right .call-us {
+        width: 100%;
+        min-height: 195px;
+        padding: 55px 70px 58px 50px;
+        border-top: 7px solid #F84225;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+        margin-top: -111px;
+        z-index: 1;
+        background-color: #fff;
+        position: relative;
+    }
+    
+    .col-right .call-us h4 {
+        font-size: 14px;
+        line-height: 20px;
+        font-weight: 400;
+        color: #41444B;
+        margin-bottom: 28px;
+    }
+    
+    .col-right .call-us a {
+        font-size: 40px;
+        line-height: 46px;
+        font-weight: 400;
+        color: #F84225;
+        font-family: 'Bungee';
+    }
+    
+    .col-right .right-box {
+        margin: 57px 0 0 40px;
+    }
+    
+    .col-right .right-box:last-child {
+        margin-top: 67px;
+    }
+    
+    .col-right .right-box h3 {
+        font-size: 18px;
+        line-height: 26px;
+        color: #000;
+        font-weight: 400;
+    }
+    
+    .col-right .right-box a {
+        font-size: 16px;
+        line-height: 28px;
+        color: #41444B;
+        max-width: 218px;
+        display: block;
+    }
+    /* contact ends ****************/
+    /* footer */
+    
+    footer {
+        padding: 78px 0 88px;
+        background-color: #302925;
+    }
+    
+    footer .container {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    footer .container h4 {
+        font-size: 22px;
+        line-height: 37px;
+        color: #fff;
+        padding: 12px 0 18px;
+    }
+    
+    footer .container a {
+        font-size: 17px;
+        line-height: 25px;
+        color: #fff;
+        padding-left: 20px;
+        margin-bottom: 17px;
+        transition: 0.3s;
+    }
+    
+    footer .container a:hover {
+        text-decoration: underline;
+        color: #F84225;
+    }
+    
+    footer .container ul li {
+        position: relative;
+    }
+    
+    footer .container ul li i {
+        position: absolute;
+        font-size: 25px;
+        font-weight: 700;
+        color: #F84225;
+        top: -1px;
+        left: 0;
+        padding-bottom: 17px;
+    }
+    
+    footer .container .contact ul li a.address {
+        max-width: 231px;
+    }
+    
+    footer .container .logo {
+        filter: grayscale(1);
+    }
+    
+    footer .container .logo p {
+        color: #fff;
+        padding-top: 40px;
+        max-width: 429px;
+        font-size: 17px;
+        line-height: 25px;
+        font-weight: 400;
+    }
+    
+    footer .container .contact a {
+        padding-left: 0px;
+    }
+    /* footer */
+    
+    .design-bottom {
+        font-size: 17px;
+        line-height: 24px;
+        color: #fff;
+        background-color: black;
+        text-align: center;
+        padding: 20px 0;
+    }
+    /* menu btn css start */
+    
+    .icon {
+        margin: 0;
+        margin-top: 0;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        position: absolute;
+        top: 12px;
+        right: 15px;
+        z-index: 15;
+    }
+    
+    .icon .first,
+    .icon .last {
+        width: 35px;
+        animation: scales 0.6s;
+        position: relative;
+    }
+    
+    .icon .first {
+        top: 14px;
+    }
+    
+    .icon .last {
+        top: -14px;
+    }
+    
+    .icon .first .left,
+    .icon .last .left {
+        width: 50%;
+        height: 4px;
+        background: rgb(238, 72, 34);
+        display: inline-block;
+        margin-right: -4px;
+        border-radius: 5px 0 0 5px;
+        position: relative;
+        transition: all 0.2s;
+    }
+    
+    .icon .first .left::before,
+    .icon .last .left::before {
+        position: absolute;
+        content: '';
+        top: 0;
+        left: 0;
+        background: rgb(238, 72, 34);
+        width: 105%;
+        height: 4px;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    .icon .first .right,
+    .icon .last .right {
+        width: 50%;
+        height: 4px;
+        background: rgb(238, 72, 34);
+        display: inline-block;
+        margin-right: -3px;
+        border-radius: 0 5px 5px 0;
+        position: relative;
+        transition: all 0.2s;
+    }
+    
+    .icon .first .right::after,
+    .icon .last .right::after {
+        position: absolute;
+        content: '';
+        top: 0;
+        right: 0;
+        background: rgb(238, 72, 34);
+        width: 105%;
+        height: 4px;
+        border-radius: 0 5px 5px 0;
+    }
+    
+    .icon .second {
+        width: 22px;
+        height: 4px;
+        margin-left: 13px;
+        background-color: #000;
+        display: inline-block;
+        border-radius: 5px;
+        background: rgb(238, 72, 34);
+        box-sizing: border-box;
+        animation: scales 0.5s;
+    }
+    
+    .icon.active {
+        padding-top: 5px;
+        box-sizing: border-box;
+        position: fixed;
+        top: 67px;
+    }
+    
+    .icon.active .last,
+    .icon.active .first {
+        top: 3px;
+    }
+    
+    .icon.active .first {
+        animation: scales 0.5s;
+        top: 10px;
+    }
+    
+    .icon.active .first .left {
+        transform: rotate(45deg) scale(1.2);
+        left: 4px;
+        top: 9px;
+        border-radius: 5px;
+    }
+    
+    .icon.active .first .right {
+        transform: rotate(-45deg) scale(1.2);
+        right: 4px;
+        top: 9px;
+        border-radius: 5px;
+    }
+    
+    .icon.active .second {
+        border: 5px solid rgb(238, 72, 34);
+        width: auto;
+        opacity: 0;
+        height: auto;
+        position: absolute;
+        top: 15px;
+        bottom: -22px;
+        left: -9px;
+        right: 5px;
+        border-radius: 20%;
+    }
+    
+    .icon.active .last {
+        animation: scales 0.5s;
+    }
+    
+    .icon.active .last .left {
+        transform: rotate(-45deg) scale(1.2);
+        left: 4px;
+        top: 2px;
+        border-radius: 5px;
+    }
+    
+    .icon.active .last .right {
+        transform: rotate(45deg) scale(1.2);
+        right: 4px;
+        top: 1px;
+        border-radius: 5px;
+    }
+    
+    @keyframes circle {
+        0% {
+            opacity: 0;
+            transform: scale(0);
+        }
+        60% {
+            opacity: 1;
+            transform: scale(1.1);
+        }
+        70% {
+            transform: scale(1);
+        }
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+    }
+    
+    @keyframes scales {
+        0% {
+            transform: scale(0.3);
+        }
+        30% {
+            transform: scale(1.2);
+        }
+        60% {
+            transform: scale(0.9);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    /* menu btn css End */
+    /* resposive */
+    
+    @media screen and (max-width:1800px) {
+        h2 {
+            font-size: 41px;
+            line-height: 50px;
+        }
+        .btf2::before {
+            top: -28.5%;
+        }
+        .btf2::after {
+            top: -16.5%;
+        }
+        .btf4 .card-boxes .card {
+            margin: 0 9px 12px 0;
+        }
+    }
+    
+    @media screen and (max-width:1600px) {
+        .contractors,
+        .container {
+            padding: 0 25px;
+        }
+        h2 {
+            font-size: 40px;
+        }
+        .btf1 .aboutus .container .right img {
+            max-width: 750px;
+        }
+        .owl-theme .owl-nav {
+            padding-left: 45px;
+        }
+        .btf1 .aboutus .container .left {
+            padding-left: 60px;
+        }
+        .btf1 .aboutus .container .left::after {
+            left: 17px;
+        }
+    }
+    
+    @media screen and (max-width:1366px) {
+        .banner .banner-inner .container {
+            max-width: 800px;
+        }
+        .btf4 .card-boxes {
+            justify-content: space-evenly;
+        }
+        .banner .banner-inner .container span {
+            font-size: 40px;
+            line-height: 46px;
+        }
+        .nav-banner .container .nav-banner-text h2 {
+            font-size: 40px;
+            line-height: 65px;
+        }
+        .banner .banner-inner .container h1 {
+            font-size: 40px;
+            line-height: 45px;
+        }
+        .btf1 .contractors .container .contracter-image {
+            padding-right: 0px;
+        }
+        .about-detail .container {
+            max-width: 95%;
+        }
+        .nav-banner .container .nav-banner-text {
+            padding-left: 80px;
+        }
+        .banner .banner-inner .container p {
+            font-size: 17px;
+            line-height: 23px;
+        }
+        .btf1 .aboutus .container {
+            flex-direction: column;
+        }
+        .btf1 .aboutus .container .right {
+            text-align: center;
+        }
+        .btf1 .aboutus .container .left {
+            max-width: 541px;
+            margin: 0 auto;
+            padding-bottom: 25px;
+        }
+        .btf1 .aboutus .container .left::after {
+            height: 250px;
+        }
+        .btf1 .contractors .container {
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        .btf1 .contractors .container .contracter-image {
+            width: 100%;
+            flex: 0 0 100%;
+            max-width: 600px;
+        }
+        .btf1 .contractors .container .contracter-text {
+            padding-top: 25px;
+            width: 100%;
+            flex: 0 0 100%;
+        }
+        .btf3 .container-fluid .btf3-text {
+            width: 70%;
+            padding-top: 25px;
+            margin: 0 auto;
+        }
+        header .container .lists nav ul.nav-links a {
+            font-size: 15px;
+            line-height: 21px;
+            margin-right: 25px;
+        }
+        header .container .lists nav ul.buttons a {
+            font-size: 17px;
+            line-height: 23px;
+            margin-right: 20px;
+        }
+        header .container .lists nav {
+            justify-content: space-evenly;
+            width: 800px;
+        }
+        footer .container .logo p {
+            padding-top: 2px;
+            max-width: 246px;
+            font-size: 13px;
+        }
+        footer .container h4 {
+            font-size: 20px;
+        }
+        footer .container a {
+            font-size: 14px;
+            padding-bottom: 17px;
+        }
+        .col-right .call-us a {
+            font-size: 26px;
+        }
+    }
+    
+    @media screen and (max-width:1140px) {
+        .btf4 .card-boxes .card {
+            width: 50%;
+            flex: 0 0 45%;
+        }
+        .about-detail .container {
+            padding: 45px 0 90px 38px;
+        }
+        .btf2 .container .services-boxes .box .box-overlay h3 {
+            font-size: 22px;
+            position: absolute;
+            line-height: 28px;
+            top: 82%;
+        }
+        .btf4 .container::before {
+            left: 8px;
+        }
+        .btf3 .container-fluid .btf3-text {
+            width: 70%;
+            padding-top: 0;
+            margin: 0 auto;
+            padding-left: 33px;
+        }
+        .btf3 .container-fluid .btf3-text h2 {
+            font-size: 28px;
+            line-height: 45px;
+        }
+        .btf2::before,
+        .btf2::after {
+            display: none;
+        }
+    }
+    
+    @media screen and (max-width:991px) {
+        .btf1 .aboutus .container .right img {
+            max-width: 550px;
+            width: 100%;
+        }
+        .btf4 .card-boxes .card {
+            margin-bottom: 20px;
+        }
+        .about-detail .container .missions {
+            flex-direction: column;
+        }
+        .about-detail .container .missions .our-mission {
+            width: 100%;
+            padding-right: 0;
+        }
+        .about-detail .container .missions .our-vision {
+            width: 100%;
+            padding-left: 0px;
+        }
+        .about-detail .container .core-values {
+            flex-direction: column;
+        }
+        .about-detail .container .core-values .core-points {
+            width: 100%;
+        }
+        .about-detail .container .core-values .core-img {
+            width: 100%;
+            padding-left: 0;
+            padding-top: 20px;
+        }
+        .about-detail .container h2::before {
+            height: 80%;
+        }
+        header .container .icon {
+            display: block;
+        }
+        .nav-banner .container .nav-banner-text h2 {
+            font-size: 35px;
+            line-height: 55px;
+        }
+        .contact-us {
+            display: none;
+        }
+        .container.pb {
+            display: none;
+        }
+        .owl-carousel .owl-nav button.owl-next,
+        .owl-carousel .owl-nav button.owl-prev {
+            display: none;
+        }
+        .banner .banner-inner .container {
+            max-width: 590px;
+        }
+        .banner .banner-inner .container span {
+            font-size: 35px;
+            line-height: 41px;
+            padding-bottom: 20px;
+        }
+        .banner .banner-inner .container h1 {
+            font-size: 34px;
+            line-height: 40px;
+            min-height: 85px
+        }
+        .banner .banner-inner .container h1::after {
+            height: 170%;
+            top: -58px;
+        }
+        .banner .banner-inner .container p {
+            font-size: 14px;
+            line-height: 20px;
+            min-height: 100px;
+        }
+        .btf3 .container-fluid {
+            flex-direction: column;
+        }
+        h2 {
+            font-size: 27px;
+        }
+        .btf5 .container .team-quote h2 {
+            line-height: 51px;
+        }
+        .btf1 .aboutus .container .left::after {
+            height: 175px;
+        }
+        .btf1 .aboutus .container h2 {
+            line-height: 70px;
+        }
+        .btf3 .container-fluid .btf3-text ul li {
+            font-size: 14px;
+            line-height: 28px;
+        }
+        footer .container .logo p {
+            padding-top: 0;
+            max-width: 376px;
+            font-size: 13px;
+        }
+        footer .container {
+            flex-wrap: wrap;
+        }
+        footer .container>div {
+            width: 50%;
+            flex: 0 0 48%;
+            margin-bottom: 25px;
+        }
+        footer .container .services {
+            order: 4;
+        }
+        .btf3 .container-fluid .btf3-image {
+            width: 100%;
+            font-size: 0;
+            flex: 0 0 100%;
+            margin: 0 auto 122px;
+        }
+        header .container .lists nav {
+            display: none;
+        }
+        header .container .lists {
+            transform: translateY(-100%);
+            transition: 0.5s all ease-in-out;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            background-color: #fff;
+        }
+        header .container .lists.active nav,
+        header .container .lists.active nav ul {
+            flex-direction: column;
+        }
+        header .container .lists.active {
+            transform: translateY(0%);
+        }
+        header .container .lists.active nav {
+            display: block;
+        }
+        header .container .lists.active nav ul.nav-links a {
+            font-size: 38px;
+            line-height: 49px;
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        header .container .lists.active nav ul.buttons a {
+            margin-right: 0;
+            margin-bottom: 20px;
+        }
+        header .container .lists.active nav {
+            height: 50vh;
+            justify-content: space-between;
+        }
+        .btf2 {
+            overflow: hidden;
+        }
+        .submit-form .content {
+            flex-direction: column;
+        }
+        .submit-form .col-left {
+            padding: 50px 0 50px;
+            max-width: 100%;
+        }
+        .submit-form .col-left {
+            padding: 50px 0 50px;
+            max-width: 100%;
+        }
+        .submit-form .col-right {
+            max-width: 100%;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .submit-form .col-right .call-us {
+            width: 100%;
+            margin-top: 0;
+        }
+        .col-right .right-box a {
+            margin: 0 auto;
+        }
+        .col-right .right-box {
+            margin: 57px auto 0;
+        }
+    }
+    
+    @media screen and (max-width:767px) {
+        .btf5 .container .team-quote h2 {
+            line-height: 31px;
+            font-size: 22px;
+        }
+        .about-detail .container {
+            padding-right: 38px;
+        }
+        header .container .lists.active nav {
+            height: 60vh;
+            justify-content: center;
+        }
+        .btf5 .container .team-quote h2::before {
+            top: -20px;
+            left: -8px;
+        }
+        .btf5 .container .team-quote h2::after {
+            bottom: -42px;
+            right: -50px;
+        }
+        .nav-banner .container .nav-banner-text h2 {
+            font-size: 25px;
+            line-height: 40px;
+        }
+        .nav-banner .container .nav-banner-text p {
+            font-size: 16px;
+            line-height: 30px;
+        }
+        .btf1 .aboutus .container .left::after {
+            left: 2px;
+        }
+        .btf1 .contractors .container .contracter-image img {
+            width: 100%;
+        }
+        .btf4 .card-boxes .card {
+            width: 100%;
+            flex: 0 0 95%;
+        }
+        .banner .banner-inner .container {
+            max-width: 400px;
+        }
+        .banner .banner-inner .container span {
+            font-size: 24px;
+            line-height: 30px;
+            padding-bottom: 15px;
+        }
+        .banner .banner-inner .container h1 {
+            font-size: 20px;
+            line-height: 26px;
+            min-height: 50px;
+        }
+        .banner .banner-inner .container h1::after {
+            top: -35px;
+            width: 10px;
+            right: -27px;
+        }
+        .banner .banner-inner .container p {
+            font-size: 14px;
+            line-height: 20px;
+            min-height: 89px;
+        }
+    }
+    
+    @media screen and (max-width:640px) {
+        .btf1 .aboutus .container h2 {
+            line-height: 50px;
+        }
+        .about-detail .container p {
+            font-size: 15px;
+            line-height: 21px;
+        }
+        .btf1 {
+            padding: 50px 0 0;
+        }
+        .btf2 {
+            padding-top: 62px;
+        }
+        .btf2 .container .services-blog {
+            padding: 10px 0 45px 53px;
+        }
+        .btf2 .container .services-boxes {
+            padding-bottom: 80px;
+        }
+        .btf3 .container-fluid .btf3-image {
+            margin: 0 auto 62px;
+        }
+        .btf4 {
+            padding: 65px 0 55px;
+        }
+        .btf2 .container .services-boxes .box a {
+            width: 100%;
+        }
+        .btf1 .contractors .container .contracter-text p {
+            line-height: 21px;
+            padding-bottom: 16px;
+            font-size: 15px;
+        }
+        .btf2 .container .services-boxes .box a img {
+            width: 100%;
+        }
+        .btf2 .container .services-boxes .box a img {
+            width: 100%;
+        }
+        .btf2 .container .services-boxes .box .box-overlay h3 {
+            font-size: 18px;
+            line-height: 24px;
+        }
+        .btf4 .card-boxes .card img {
+            width: 100%;
+        }
+        .btf3 .container-fluid .btf3-text {
+            padding-left: 0px;
+        }
+        .btf3 .container-fluid .btf3-text h2::before {
+            left: -57px;
+            height: 100px;
+        }
+        .btf3 .container-fluid .btf3-text ul {
+            padding-left: 0px;
+        }
+        .btf5 .container .team-quote h2 {
+            line-height: 37px;
+            font-size: 18px;
+        }
+        .btf5 .container .team-quote {
+            padding: 50px 0px 60px;
+        }
+        .btf5 .container .team-quote h2::before {
+            top: -14px;
+            left: -17px;
+        }
+        .btf5 .container .team-quote h2::after {
+            bottom: -51px;
+            right: -40px;
+        }
+        .design-bottom {
+            font-size: 14px;
+            line-height: 20px;
+        }
+        .btf1 .aboutus .container .left::after {
+            height: 86%;
+        }
+        footer .container>div {
+            width: 100%;
+            flex: 0 0 100%;
+            margin-bottom: 25px;
+        }
+        .nav-banner .container .nav-banner-text {
+            padding-left: 40px;
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        h2 {
+            font-size: 20px;
+        }
+        .btf5 .container .team-quote h2 br {
+            display: none;
+        }
+        .about-detail .container {
+            padding: 25px 38px 25px;
+        }
+        .about-detail .container .missions {
+            padding-bottom: 0px;
+        }
+        .icon {
+            top: -10px;
+        }
+        .banner .banner-inner .container h1::after {
+            right: -20px;
+        }
+        .banner .banner-inner .container {
+            max-width: 280px;
+            padding: 0px 15px;
+        }
+        header .container .logo a img {
+            width: 100%;
+            object-fit: contain;
+            height: 54px;
+        }
+        .banner .banner-inner {
+            height: 100vh;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            overflow: hidden;
+            align-items: center;
+        }
+        .banner .banner-inner .container a {
+            width: 25%;
+        }
+        .btf1 .aboutus .container .right {
+            display: none;
+        }
+        .btf5 .container .team-quote {
+            padding: 30px 20px 40px;
+        }
+        .btf5 .container .team-quote h2 {
+            font-size: 19px;
+            line-height: 1.6;
+        }
+        .btf1 .aboutus .container .left {
+            padding-left: 33px;
+        }
+        .btf2 .container .services-blog p {
+            font-size: 14px;
+            line-height: 22px;
+            padding-bottom: 5px;
+        }
+        .btf2 .container .services-blog h2 {
+            line-height: 35px;
+        }
+        .btf2 .container .services-boxes .box .box-overlay h3 {
+            top: 78%;
+        }
+        .btf1 .contractors .container {
+            padding: 46px 15px 47px 15px;
+        }
+        .btf2 .container .services-blog {
+            padding: 30px 0 76px 30px;
+        }
+        .btf2 .container .services-blog::before {
+            top: 20px;
+        }
+        .btf3 .container-fluid .btf3-text h2::before {
+            left: -38px;
+        }
+        .btf4 .card-boxes .card .card-overlay span {
+            padding-bottom: 70px;
+        }
+        .btf4 .card-boxes .card:last-child .card-overlay h4 {
+            font-size: 25px;
+            line-height: 32px;
+            padding-bottom: 67px;
+        }
+        footer .container .logo p {
+            padding-top: 30px;
+            font-size: 14px;
+            line-height: 20px;
+        }
+        footer .container h4 {
+            font-size: 17px;
+            line-height: 24px;
+        }
+        footer .container a {
+            font-size: 13px;
+            line-height: 19px;
+        }
+        .btf5 .container .team-quote h2::after {
+            bottom: 0;
+            right: 0;
+            width: 15px;
+            height: 18px;
+        }
+        .banner .banner-inner .container {
+            max-width: 270px;
+        }
+        .banner .banner-inner .container span {
+            font-size: 17px;
+            line-height: 23px;
+            padding-bottom: 10px;
+        }
+        .banner .banner-inner .container h1 {
+            font-size: 17px;
+            line-height: 21px;
+            min-height: 45px;
+        }
+        .design-top {
+            font-size: 14px;
+            padding: 10px 5px;
+        }
+        .col-left form input,
+        .col-left form select {
+            width: 100%;
+        }
+        .col-right .call-us a {
+            font-size: 16px;
+        }
+        header .container .lists.active nav ul.nav-links a {
+            font-size: 27px;
+            line-height: 34px;
+        }
+    }
+    
+    .hidden {
+        overflow: hidden;
+    }
